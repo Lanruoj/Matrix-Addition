@@ -10,7 +10,8 @@ def add_matrix(m1,m2):
             return None
         for i in range(0, len(m1)):
             m1[i] += m2[i]
-    return m1
+    result = m1
+    return result
 
 ## TEST CASES ##
 
